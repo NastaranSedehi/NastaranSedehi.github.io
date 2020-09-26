@@ -823,7 +823,7 @@ properly.
   display: flex;
 }
 
-.column {
+#mycol{
   flex: 22%;
   padding: 3px;
 }
