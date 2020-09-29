@@ -25,7 +25,24 @@
 	padding-right: 10px;
 	}
 	
-		
+	* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
 	</style>
 	
 		<title>Nastaran Sedehi</title>
@@ -354,35 +371,24 @@
 									</ul>
 									</div>
 								</div>
-								
-							
-							<div class="row">
-								<div id="mycol">
-									<article class="item" width="25%">
-										<a href="#" class="image fit"><img src="images/b.jpg" alt=""  width="25"/></a>
-										<header>							
-											<h3> <a class='btn btn-link' href='https://github.com/softlabg1/Deep-Learning/blob/master/Email%20network%20analysis.ipynb'>&nbsp;Email Network Analysis:</a>
-											<font size="-1">explanation</font></h3>
-										</header>
-									</article>
-									
-									<article class="item" width="25%">
-										<a href="#" class="image fit"><img src="images/b.jpg" alt="" width="25"/></a>
-										<header>							
-											<h3> <a class='btn btn-link' href='https://github.com/softlabg1/Deep-Learning/blob/master/Email%20network%20analysis.ipynb'>&nbsp;Email Network Analysis:</a>
-											<font size="-1">explanation</font></h3>
-										</header>
-									</article>
-									
-									<article class="item" width="25%" width="width="25"">
-										<a href="#" class="image fit"><img src="images/b.jpg" alt="" width="25" /></a>
-										<header>							
-											<h3> <a class='btn btn-link' href='https://github.com/softlabg1/Deep-Learning/blob/master/Email%20network%20analysis.ipynb'>&nbsp;Email Network Analysis:</a>
-											<font size="-1">explanation</font></h3>
-										</header>
-									</article>
-								</div>
 							</div>
+                               
+                            
+                            <div class="row">
+                                <div class="column">
+                                  <img src="img_snow.jpg" alt="Snow" style="width:100%">
+                                </div>
+                                <div class="column">
+                                  <img src="img_forest.jpg" alt="Forest" style="width:100%">
+                                </div>
+                                <div class="column">
+                                  <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+                                </div>
+                              </div>
+                            
+
+
+
 						 </div>
 					</section>  
 <!-- ------------------------------------------------------------------------------------------------------------- -->
